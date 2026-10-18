@@ -52,8 +52,8 @@ export function TripSettings({ trip, onClose }: { trip: Trip; onClose: () => voi
               onChange={(e) => setDate(e.target.value)}
             />
           </label>
-          <label className="field-label" htmlFor="trip-travellers">
-            Travellers
+          <div className="field-label">
+            <label htmlFor="trip-travellers">Travellers</label>
             <select
               id="trip-travellers"
               value={travellers}
@@ -65,7 +65,7 @@ export function TripSettings({ trip, onClose }: { trip: Trip; onClose: () => voi
                 </option>
               ))}
             </select>
-          </label>
+          </div>
         </div>
         <p className="small-note">
           Changing the group size updates the budget. Rooms are estimated at two travellers per

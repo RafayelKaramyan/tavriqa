@@ -160,18 +160,16 @@ export default function RouteMap({
       </p>
       {onSelect && (
         <div className="map-place-controls" aria-label="Select a mapped place">
-          {points
-            .filter((p) => stops.some((s) => s.placeId === p.id))
-            .map((p, i) => (
-              <button
-                key={p.id}
-                className={selected === p.id ? 'active' : ''}
-                aria-pressed={selected === p.id}
-                onClick={() => onSelect(p.id)}
-              >
-                {i + 1}. {p.name}
-              </button>
-            ))}
+          {route.map((p, i) => (
+            <button
+              key={p.id}
+              className={selected === p.id ? 'active' : ''}
+              aria-pressed={selected === p.id}
+              onClick={() => onSelect(p.id)}
+            >
+              {i + 1}. {p.name}
+            </button>
+          ))}
         </div>
       )}
     </div>

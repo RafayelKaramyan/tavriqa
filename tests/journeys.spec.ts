@@ -65,6 +65,7 @@ test('the homepage tells the story, changes its featured destination and saves i
   await audit(page);
   await capture(page, info, 'home');
   await page.goto('#/trips?tab=destinations');
+  await expect(page.locator('.trips-page')).toBeVisible();
   await expect(page.locator('.destination-card h3')).toHaveText('Madeira');
   await page.getByRole('button', { name: 'Unsave Madeira', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Keep a little inspiration.' })).toBeVisible();
@@ -128,10 +129,16 @@ test('keyboard sorting and explicit cross-day controls keep every place exactly 
   const handle = page.getByRole('button', { name: 'Drag Funchal old town', exact: true });
   await handle.focus();
   await page.keyboard.press('Space');
+  await expect(handle).toHaveAttribute('aria-pressed', 'true');
   await page.keyboard.press('ArrowDown');
+  await expect(page.locator('[id^="DndLiveRegion"]')).toContainText('is over Cabo Girão');
   await page.keyboard.press('Space');
   const list = page.getByRole('list', { name: 'Day 1 places', exact: true });
   await expect(list.locator('.stop-name')).toHaveText(['Cabo Girão', 'Funchal old town']);
+  await expect(page.locator('.map-place-controls button')).toHaveText([
+    '1. Cabo Girão',
+    '2. Funchal old town',
+  ]);
   const day3Value = await page
     .getByRole('combobox', { name: 'Move Funchal old town to day', exact: true })
     .locator('option')
@@ -159,7 +166,7 @@ test('a pointer drag reorders the actual itinerary', async ({ page, isMobile }) 
   await start(page);
   const source = page.getByRole('button', { name: 'Drag Funchal old town', exact: true }),
     target = page.getByRole('button', { name: 'Drag Cabo Girão', exact: true });
-  await target.scrollIntoViewIfNeeded();
+  await page.getByRole('list', { name: 'Day 1 places', exact: true }).scrollIntoViewIfNeeded();
   const a = await source.boundingBox(),
     b = await target.boundingBox();
   expect(a).toBeTruthy();
@@ -167,7 +174,9 @@ test('a pointer drag reorders the actual itinerary', async ({ page, isMobile }) 
   await page.mouse.move(a!.x + a!.width / 2, a!.y + a!.height / 2);
   await page.mouse.down();
   await page.mouse.move(a!.x + a!.width / 2 + 12, a!.y + a!.height / 2 + 12, { steps: 3 });
-  await page.mouse.move(b!.x + b!.width / 2, b!.y + b!.height / 2 + 20, { steps: 15 });
+  await expect(source).toHaveAttribute('aria-pressed', 'true');
+  await page.mouse.move(b!.x + b!.width / 2, b!.y + b!.height / 2 + 5, { steps: 15 });
+  await expect(page.locator('[id^="DndLiveRegion"]')).toContainText('is over Cabo Girão');
   await page.mouse.up();
   await expect(page.getByRole('list', { name: 'Day 1 places' }).locator('.stop-name')).toHaveText([
     'Cabo Girão',
@@ -372,6 +381,7 @@ test('keyboard navigation, missing pages and malformed shared links have clear r
   page,
 }) => {
   await page.goto('#/about');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Made for');
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'Skip to content', exact: true })).toBeFocused();
   await page.keyboard.press('Enter');

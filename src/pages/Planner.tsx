@@ -43,6 +43,7 @@ import {
 import { DayTab, ItineraryStop } from '../components/Itinerary';
 import RouteMap from '../components/RouteMap';
 import { usePageMotion } from '../components/usePageMotion';
+import { useMotion } from '../components/useMotion';
 type Modal =
   | { type: 'settings' | 'budget' | 'share' | 'export'; trip: Trip }
   | { type: 'stop'; trip: Trip; stop: Stop };
@@ -54,9 +55,13 @@ export default function Planner() {
     [selectedPlace, setSelectedPlace] = useState(''),
     [modal, setModal] = useState<Modal | null>(null),
     [query, setQuery] = useState('');
+  const { reduced } = useMotion();
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 8 } }),
-    useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+      scrollBehavior: reduced ? 'auto' : 'smooth',
+    }),
   );
   const root = usePageMotion<HTMLDivElement>(tripId);
   if (!tripId)
@@ -130,6 +135,12 @@ export default function Planner() {
     (sum, s) => sum + placeById(trip.destinationId, s.placeId)!.minutes,
     0,
   );
+  function dragLabel(id: string | number) {
+    const dayIndex = trip!.days.findIndex((d) => d.id === id);
+    if (dayIndex >= 0) return `day ${dayIndex + 1}`;
+    const stop = trip!.days.flatMap((d) => d.stops).find((s) => s.id === id);
+    return stop ? placeById(trip!.destinationId, stop.placeId)!.name : 'this place';
+  }
   function dragEnd(event: DragEndEvent) {
     const { active, over } = event;
     if (!over || active.id === over.id || !trip) return;
@@ -217,6 +228,18 @@ export default function Planner() {
             }
             onDragEnd={dragEnd}
             accessibility={{
+              announcements: {
+                onDragStart: ({ active }) => `Picked up ${dragLabel(active.id)}.`,
+                onDragOver: ({ active, over }) =>
+                  over
+                    ? `${dragLabel(active.id)} is over ${dragLabel(over.id)}.`
+                    : `${dragLabel(active.id)} is outside the day list.`,
+                onDragEnd: ({ active, over }) =>
+                  over
+                    ? `Dropped ${dragLabel(active.id)} on ${dragLabel(over.id)}.`
+                    : `Kept ${dragLabel(active.id)} in its original position.`,
+                onDragCancel: ({ active }) => `Cancelled moving ${dragLabel(active.id)}.`,
+              },
               screenReaderInstructions: {
                 draggable:
                   'Press Space to pick up this place. Use the arrow keys to reorder within this day. Press Space to drop or Escape to cancel. To move between days, use the Move to day selection on the place card.',
