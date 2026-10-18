@@ -7,12 +7,15 @@ and Dilijan, then turn a three-day outline into a personal trip.
 React, strict TypeScript, GSAP, React Three Fiber and authored CSS. Built for
 GitHub Pages without a backend, API key or paid service.
 
-## Current release state
+[**Open the live demo →**](https://rafayelkaramyan.github.io/tavriqa/)
 
-Source implementation and local checks are complete. Publication, browser
-verification and screenshots are pending. No live deployment is claimed at
-this checkpoint. The deployment workflow publishes the checked build after
-verification succeeds.
+![Tavriqa's published Madeira homepage](docs/images/tavriqa-home.jpg)
+
+Verified on 18 October 2026: **38 unit tests and 38 browser scenarios passed**
+across desktop Chromium, Firefox and Pixel 7 emulation. One mobile pointer-drag
+entry intentionally skips. [Verification and deployment](https://github.com/RafayelKaramyan/tavriqa/actions/runs/39159001829)
+publish the checked build to GitHub Pages. See the [validation record](docs/validation.md)
+for coverage, live review and remaining limits.
 
 ## What you can do
 
@@ -65,8 +68,9 @@ npm run test:e2e
 
 Playwright starts its own preview server on port 4173. The workflow runs
 Chromium, Firefox and Pixel 7 emulation, retains failure traces and uploads
-screenshots. Browser scenarios have been authored and discovered but have not
-yet been executed at this checkpoint. See [validation](docs/validation.md).
+screenshots. The suite covers complete planner journeys, persistence, conflict
+and recovery states, keyboard controls, representative axe scans and overflow
+checks. See [validation](docs/validation.md).
 
 ## Code tour
 

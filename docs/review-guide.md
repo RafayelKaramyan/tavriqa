@@ -28,8 +28,10 @@ ordinary scrolling.
 6. Open an editor in two tabs. Save a change in the second tab, then submit the
    older first editor. Its captured trip revision makes the stale save fail.
 
-These are walkthrough instructions and automated scenarios; browser execution
-is pending at this checkpoint. Do not describe them as manually verified.
+These flows are covered by the passing Chromium, Firefox and mobile Chromium
+suite. Public browser review also verified creation, details, exact budget edits,
+cross-day movement and persistence after reload. See [validation](validation.md)
+for the executed checks and the distinction between automated and manual review.
 
 ## State boundaries
 
@@ -72,7 +74,8 @@ settles. The texture is disposed on unmount.
 
 - Use native links, buttons, selects, date inputs and modal dialogs.
 - Keep an explicit move-to-day selector and up/down buttons alongside dragging.
-- Supply drag instructions and keyboard sorting; do not require pointer gestures.
+- Supply drag instructions, keyboard sorting and announcements using place names.
+  Keyboard scrolling follows the reduced-motion preference.
 - Focus main content on route changes, preserve search focus during query changes,
   and keep in-page anchors from colliding with hash routing.
 - Honor reduced motion and provide a decorative-motion pause. Animate position,
