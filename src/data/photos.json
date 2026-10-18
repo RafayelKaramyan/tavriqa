@@ -1,0 +1,34 @@
+[
+  {
+    "id": "madeira",
+    "author": "Colin Watts",
+    "source": "https://unsplash.com/photos/a-view-of-the-ocean-from-the-top-of-a-mountain-2fWZ9jsoIe0",
+    "image": "https://images.unsplash.com/photo-1733169312713-fd0c6963487a",
+    "alt": "Sunrise over Ponta de São Lourenço, Madeira",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "id": "iceland",
+    "author": "Rolands Varsbergs",
+    "source": "https://unsplash.com/photos/waterfalls-during-day-f3Os5oCc874",
+    "image": "https://images.unsplash.com/photo-1552907241-694fb71840d7",
+    "alt": "Skógafoss waterfall, Iceland",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "id": "dolomites",
+    "author": "Finge Holden",
+    "source": "https://unsplash.com/photos/a-lake-surrounded-by-mountains-and-trees-NwJ-bJk4VRE",
+    "image": "https://images.unsplash.com/photo-1692085450034-3e7b05de83ed",
+    "alt": "Lago di Braies, Italian Dolomites",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "id": "dilijan",
+    "author": "IsaaK Alexandre KaRslian",
+    "source": "https://unsplash.com/photos/an-aerial-view-of-a-town-surrounded-by-mountains-PFvyG7c4q5I",
+    "image": "https://images.unsplash.com/photo-1681332291154-8149cc61fef2",
+    "alt": "Dilijan town surrounded by forest, Armenia",
+    "license": "https://unsplash.com/license"
+  }
+]

@@ -1,0 +1,2084 @@
+@media (min-width: 1700px) {
+  .site-header,
+  .site-footer {
+    padding-inline: max(64px, calc((100vw - 1312px) / 2));
+  }
+  .hero-topline,
+  .hero-bottom {
+    left: max(64px, calc((100vw - 1312px) / 2));
+    right: max(64px, calc((100vw - 1312px) / 2));
+  }
+  .hero-heading {
+    left: max(64px, calc((100vw - 1312px) / 2));
+  }
+  .hero-scroll {
+    left: max(64px, calc((100vw - 1312px) / 2));
+  }
+  .hero-seal {
+    right: max(120px, calc((100vw - 1180px) / 2));
+  }
+  .feature-story-copy {
+    padding-left: max(64px, calc((100vw - 1312px) / 2));
+    max-width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .site-header {
+    padding-inline: 36px;
+    gap: 18px;
+  }
+  .desktop-nav {
+    gap: 25px;
+  }
+  .section {
+    padding-inline: 40px;
+  }
+  .home-search-wrap {
+    padding-inline: 36px;
+  }
+  .home-search {
+    gap: 18px;
+    padding: 20px;
+  }
+  .search-mood {
+    padding-left: 18px;
+    max-width: 245px;
+  }
+  .home-search > .button {
+    min-width: 160px;
+    font-size: 10px;
+    padding-inline: 18px;
+  }
+  .hero-topline,
+  .hero-bottom {
+    left: 40px;
+    right: 40px;
+  }
+  .hero-heading,
+  .hero-scroll {
+    left: 40px;
+  }
+  .hero-thumb {
+    width: 75px;
+    height: 60px;
+  }
+  .hero-seal {
+    right: 7%;
+    width: 130px;
+    height: 130px;
+    top: 39%;
+  }
+  .destination-grid {
+    gap: 18px;
+  }
+  .destination-card-image {
+    height: 300px;
+  }
+  .destination-card-copy h3 {
+    font-size: 24px;
+  }
+  .card-index {
+    font-size: 7px;
+    left: 12px;
+    top: 17px;
+    padding: 5px 7px;
+  }
+  .bookmark-button {
+    width: 33px;
+    height: 33px;
+    right: 10px;
+    top: 12px;
+  }
+  .bookmark-button svg {
+    width: 14px;
+    height: 14px;
+  }
+  .card-image-tag {
+    left: 12px;
+    bottom: 13px;
+  }
+  .atlas-section {
+    padding: 75px 40px;
+    grid-template-columns: 1fr 1.05fr;
+    min-height: 650px;
+  }
+  .process-section {
+    gap: 50px;
+  }
+  .route-paper {
+    padding: 35px 25px 50px;
+  }
+  .paper-route strong {
+    font-size: 11px;
+  }
+  .paper-route small {
+    font-size: 8px;
+  }
+  .paper-stamp {
+    right: -10px;
+    bottom: -15px;
+  }
+  .feature-story-copy {
+    padding-inline: 40px;
+  }
+  .place-map-layout {
+    gap: 35px;
+  }
+  .detail-hero-content {
+    left: 40px;
+    right: 40px;
+  }
+  .detail-plan-cta {
+    padding-inline: 40px;
+    gap: 35px;
+  }
+  .detail-plan-cta > .compass-mark {
+    width: 80px;
+    height: 80px;
+  }
+  .detail-plan-cta h2 {
+    font-size: 58px;
+  }
+  .destination-story {
+    gap: 40px;
+  }
+  .destination-intro-copy > .button-row {
+    align-items: start;
+  }
+  .footer-bottom {
+    grid-template-columns: 1fr 1.6fr 0.9fr;
+    gap: 25px;
+  }
+  .footer-coordinate {
+    display: none;
+  }
+  .site-footer {
+    padding-inline: 36px;
+  }
+  .planner-start-grid {
+    gap: 18px;
+  }
+  .planner-layout {
+    padding-inline: 40px;
+    gap: 30px;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  }
+  .trip-cover-copy,
+  .planner-utility {
+    padding-inline: 40px;
+  }
+  .stop-type {
+    width: 36px;
+    height: 45px;
+  }
+  .itinerary-stop {
+    gap: 10px;
+  }
+  .stop-name {
+    font-size: 18px;
+  }
+  .day-tab {
+    min-width: 115px;
+    padding: 15px 12px;
+  }
+  .budget-panel {
+    padding: 23px;
+  }
+  .budget-panel-heading h2 {
+    font-size: 24px;
+  }
+  .planner-utility .text-link {
+    margin-right: 4px;
+  }
+  .map-place-controls button {
+    font-size: 7px;
+  }
+  .explore-toolbar {
+    gap: 12px;
+  }
+  .landscape-filters {
+    gap: 1px;
+  }
+  .landscape-filters button {
+    padding: 9px 10px;
+    font-size: 9px;
+  }
+  .explore-search input {
+    font-size: 10px;
+  }
+  .view-switch {
+    padding-left: 12px;
+  }
+  .section-heading {
+    gap: 30px;
+  }
+  .destination-grid-three .destination-card-image {
+    height: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .site-header {
+    height: 84px;
+    padding-inline: 26px;
+  }
+  .desktop-nav {
+    gap: 20px;
+  }
+  .wordmark {
+    font-size: 27px;
+  }
+  .wordmark .compass-mark {
+    width: 25px;
+    height: 25px;
+  }
+  .header-cta {
+    display: none;
+  }
+  .header-actions {
+    gap: 5px;
+  }
+  .desktop-nav a {
+    font-size: 10px;
+  }
+  .section {
+    padding: 75px 28px;
+  }
+  .hero-topline {
+    top: 115px;
+    left: 28px;
+    right: 28px;
+  }
+  .hero-heading {
+    left: 26px;
+    right: 26px;
+    top: 25%;
+  }
+  .hero-heading h1 {
+    font-size: 15vw;
+  }
+  .hero-bottom {
+    left: 28px;
+    right: 28px;
+    bottom: 95px;
+  }
+  .hero-scroll {
+    left: 28px;
+  }
+  .hero-seal {
+    right: 4%;
+    top: 45%;
+    width: 110px;
+    height: 110px;
+  }
+  .hero-seal > svg:last-child {
+    width: 32px;
+    height: 32px;
+  }
+  .hero-selector {
+    gap: 7px;
+  }
+  .hero-thumb {
+    width: 63px;
+    height: 55px;
+  }
+  .hero-destination h2 {
+    font-size: 28px;
+  }
+  .hero-destination p {
+    font-size: 10px;
+    max-width: 240px;
+  }
+  .home-search-wrap {
+    padding-inline: 26px;
+  }
+  .home-search {
+    flex-wrap: wrap;
+    padding: 22px;
+    gap: 20px;
+  }
+  .search-field {
+    flex-basis: 50%;
+  }
+  .search-mood {
+    max-width: none;
+  }
+  .home-search > .button {
+    width: 100%;
+    min-height: 47px;
+  }
+  .journeys-section {
+    padding-top: 85px;
+  }
+  .section-heading {
+    gap: 30px;
+  }
+  .section-heading h2 {
+    font-size: 56px;
+  }
+  .section-heading > div:last-child > p,
+  .section-heading > p {
+    font-size: 11px;
+    max-width: 290px;
+  }
+  .destination-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px 22px;
+  }
+  .destination-card-image {
+    height: 340px;
+  }
+  .destination-card-copy h3 {
+    font-size: 29px;
+  }
+  .destination-card-copy .tiny-label {
+    font-size: 8px;
+  }
+  .destination-grid-three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .destination-grid-three .destination-card-image {
+    height: 270px;
+  }
+  .destination-grid-three .destination-card-copy h3 {
+    font-size: 22px;
+  }
+  .destination-grid-three .destination-card-copy .round-link {
+    display: none;
+  }
+  .atlas-section {
+    padding: 75px 28px;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 10px;
+    min-height: 590px;
+  }
+  .atlas-copy h2 {
+    font-size: 65px;
+  }
+  .atlas-copy > p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .atlas-destinations {
+    width: 95%;
+  }
+  .atlas-destinations button {
+    font-size: 12px;
+    padding-block: 13px;
+    gap: 15px;
+  }
+  .atlas-current {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .atlas-current > a {
+    font-size: 24px;
+  }
+  .globe-controls {
+    gap: 12px;
+  }
+  .globe-controls > span {
+    font-size: 8px;
+  }
+  .globe-controls .icon-button {
+    width: 27px;
+    height: 27px;
+  }
+  .process-section {
+    gap: 35px;
+  }
+  .process-copy h2 {
+    font-size: 51px;
+  }
+  .process-copy > p:not(.eyebrow):not(.small-note) {
+    font-size: 11px;
+  }
+  .process-illustration {
+    padding: 12px;
+  }
+  .route-paper {
+    padding: 30px 22px 42px;
+    min-height: 330px;
+  }
+  .paper-route {
+    gap: 13px;
+    padding-bottom: 28px;
+  }
+  .paper-route strong {
+    font-size: 10px;
+  }
+  .paper-route small {
+    font-size: 8px;
+  }
+  .paper-route > span {
+    width: 24px;
+    height: 24px;
+    font-size: 7px;
+  }
+  .paper-route:not(:last-of-type):before {
+    left: 11px;
+    top: 28px;
+  }
+  .paper-stamp {
+    width: 86px;
+    height: 86px;
+    font-size: 6px;
+  }
+  .paper-compass {
+    width: 35px;
+    height: 35px;
+  }
+  .feature-story {
+    height: 600px;
+  }
+  .feature-story-copy {
+    padding: 120px 28px;
+  }
+  .feature-story-copy h2 {
+    font-size: 73px;
+  }
+  .feature-compass {
+    right: 40px;
+    top: 65px;
+    width: 70px;
+    height: 70px;
+  }
+  .feature-story-coordinate {
+    right: 28px;
+  }
+  .site-footer {
+    padding: 60px 28px 28px;
+  }
+  .footer-top {
+    padding-bottom: 45px;
+  }
+  .footer-bottom {
+    grid-template-columns: 1fr 1.8fr;
+    gap: 30px;
+  }
+  .footer-bottom > div {
+    grid-column: 2;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .footer-arrow {
+    width: 80px;
+    height: 80px;
+  }
+  .footer-arrow svg {
+    width: 34px;
+    height: 34px;
+  }
+  .page-intro h1 {
+    font-size: 80px;
+  }
+  .explore-toolbar {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .explore-search {
+    max-width: none;
+    flex-basis: calc(100% - 110px);
+    order: 1;
+  }
+  .landscape-filters {
+    order: 3;
+    width: 100%;
+    margin-top: 5px;
+    gap: 6px;
+  }
+  .landscape-filters button {
+    font-size: 10px;
+  }
+  .view-switch {
+    order: 2;
+    flex-shrink: 0;
+  }
+  .result-heading {
+    margin-top: 21px;
+  }
+  .destination-grid-large {
+    gap: 40px 25px;
+  }
+  .destination-grid-large .destination-card-copy h3 {
+    font-size: 32px;
+  }
+  .atlas-note {
+    gap: 35px;
+    margin-top: 55px;
+  }
+  .atlas-note > p {
+    font-size: 10px;
+  }
+  .explore-globe {
+    padding: 20px;
+    gap: 10px;
+    grid-template-columns: 1.2fr 1fr;
+  }
+  .explore-globe-list {
+    padding-right: 0;
+  }
+  .explore-globe-list > button:not(.button) {
+    padding: 13px;
+  }
+  .explore-globe-list strong {
+    font-size: 23px;
+  }
+  .explore-globe-list small {
+    font-size: 8px;
+    line-height: 1.6;
+  }
+  .explore-globe-list .button {
+    font-size: 10px;
+  }
+  .destination-detail-hero {
+    height: 540px;
+  }
+  .detail-hero-content {
+    left: 28px;
+    right: 28px;
+    bottom: 40px;
+  }
+  .detail-chapter {
+    right: 28px;
+    font-size: 8px;
+  }
+  .detail-hero-content h1 {
+    font-size: 100px;
+  }
+  .destination-story {
+    gap: 35px;
+  }
+  .destination-story h2 {
+    font-size: 46px;
+  }
+  .destination-intro-copy > p:first-child {
+    font-size: 12px;
+  }
+  .destination-intro-copy .button {
+    width: 100%;
+  }
+  .destination-intro-copy .tag-row span {
+    font-size: 8px;
+  }
+  .place-map-layout {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .detail-place-row {
+    gap: 12px;
+  }
+  .place-number {
+    font-size: 20px;
+    min-width: 25px;
+  }
+  .detail-place-row h3 {
+    font-size: 20px;
+  }
+  .detail-place-row p {
+    font-size: 10px;
+  }
+  .place-duration {
+    display: none;
+  }
+  .official-source {
+    padding: 20px 16px;
+    gap: 12px;
+  }
+  .official-source p {
+    font-size: 9px;
+  }
+  .detail-plan-cta {
+    padding: 55px 28px;
+    gap: 35px;
+  }
+  .detail-plan-cta > .compass-mark {
+    display: none;
+  }
+  .detail-plan-cta h2 {
+    font-size: 58px;
+  }
+  .detail-plan-cta > div:last-child {
+    max-width: 290px;
+  }
+  .detail-plan-cta p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .planner-start-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 25px;
+  }
+  .planner-layout {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 28px 28px 75px;
+    gap: 40px;
+  }
+  .planner-aside {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 23px;
+    align-items: start;
+  }
+  .budget-panel {
+    margin-top: 0;
+  }
+  .route-map > svg {
+    max-height: 350px;
+  }
+  .trip-cover-copy {
+    padding: 30px 28px 35px;
+  }
+  .trip-heading-row h1 {
+    font-size: 49px;
+  }
+  .planner-utility {
+    padding: 17px 28px;
+  }
+  .planner-utility .text-link {
+    display: none;
+  }
+  .itinerary-stop {
+    padding: 21px 20px 18px 14px;
+    gap: 16px;
+  }
+  .itinerary-stop.selected-stop {
+    padding-left: 12px;
+  }
+  .stop-type {
+    width: 50px;
+    height: 58px;
+  }
+  .stop-name {
+    font-size: 23px;
+  }
+  .stop-meta {
+    font-size: 10px;
+  }
+  .stop-content > .tiny-label {
+    font-size: 8px;
+  }
+  .stop-bottom .icon-button {
+    width: 34px;
+    height: 32px;
+  }
+  .stop-bottom .icon-button svg {
+    width: 14px;
+    height: 14px;
+  }
+  .move-label > select {
+    font-size: 10px;
+  }
+  .stop-note {
+    font-size: 11px;
+  }
+  .drag-instructions {
+    font-size: 10px;
+  }
+  .day-tab {
+    min-width: 132px;
+  }
+  .day-tab > strong {
+    font-size: 10px;
+  }
+  .budget-total {
+    font-size: 37px;
+  }
+  .budget-panel dl > div {
+    font-size: 9px;
+  }
+  .map-heading {
+    padding-inline: 14px;
+    gap: 8px;
+  }
+  .map-heading > span:first-child {
+    font-size: 10px;
+  }
+  .map-heading > span:last-child {
+    font-size: 7px;
+  }
+  .map-caption {
+    font-size: 6px;
+    padding-inline: 12px;
+  }
+  .saved-trip-image {
+    width: 31%;
+  }
+  .saved-trip-copy {
+    padding-left: 24px;
+    padding-right: 65px;
+  }
+  .saved-trip-copy h2 {
+    font-size: 27px;
+  }
+  .saved-trip-bottom {
+    align-items: start;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 19px;
+  }
+  .shared-trip-preview > div {
+    padding: 30px;
+  }
+  .shared-trip-preview h2 {
+    font-size: 35px;
+  }
+  .shared-trip-preview .button {
+    font-size: 10px;
+  }
+  .shared-days {
+    gap: 24px;
+  }
+  .shared-days h2 {
+    font-size: 21px;
+  }
+  .about-body h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .site-header {
+    height: 78px;
+    padding: 0 21px;
+    gap: 15px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .wordmark {
+    font-size: 28px;
+    gap: 7px;
+  }
+  .wordmark .compass-mark {
+    width: 25px;
+    height: 25px;
+  }
+  .menu-button {
+    display: flex;
+    width: 36px;
+    height: 36px;
+  }
+  .menu-button svg {
+    width: 22px;
+    height: 22px;
+  }
+  .header-actions {
+    gap: 7px;
+  }
+  .mobile-nav {
+    display: flex;
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 22px;
+    z-index: 29;
+    flex-direction: column;
+    box-shadow: 0 10px 30px #07172530;
+  }
+  .mobile-nav a {
+    padding: 20px 0;
+    border-bottom: 1px solid #526673;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: -0.04em;
+  }
+  .mobile-nav a svg {
+    width: 20px;
+    height: 20px;
+  }
+  .section {
+    padding: 65px 22px;
+  }
+  .eyebrow {
+    font-size: 8px;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .eyebrow > span:first-child {
+    width: 5px;
+    height: 5px;
+  }
+  .button {
+    font-size: 10px;
+    gap: 15px;
+    min-height: 49px;
+    padding: 14px 20px;
+  }
+  .button-small {
+    font-size: 9px;
+    min-height: 38px;
+    padding: 10px 13px;
+  }
+  .button-small svg {
+    width: 14px;
+    height: 14px;
+  }
+  .page-intro {
+    padding-bottom: 35px;
+  }
+  .page-intro h1 {
+    font-size: 59px;
+    letter-spacing: -0.06em;
+    line-height: 1.02;
+    margin-bottom: 26px;
+  }
+  .page-intro .eyebrow {
+    margin-bottom: 25px;
+  }
+  .intro-bottom {
+    gap: 25px;
+    align-items: start;
+  }
+  .intro-bottom > p,
+  .page-intro > p {
+    font-size: 11px;
+  }
+  .intro-bottom > .compass-mark {
+    width: 55px;
+    height: 55px;
+  }
+  .editorial-index {
+    font-size: 23px;
+    flex-shrink: 0;
+  }
+  .editorial-index span {
+    font-size: 6px;
+    letter-spacing: 0.08em;
+    margin-top: 9px;
+  }
+  .home-hero {
+    height: 840px;
+    min-height: 780px;
+    max-height: none;
+  }
+  .hero-topline {
+    top: 109px;
+    left: 22px;
+    right: 22px;
+    font-size: 8px;
+  }
+  .hero-topline .tiny-label {
+    display: none;
+  }
+  .hero-heading {
+    top: 191px;
+    left: 20px;
+    right: 20px;
+  }
+  .hero-heading .eyebrow {
+    font-size: 7px;
+    letter-spacing: 0.13em;
+    margin-bottom: 29px;
+  }
+  .hero-heading h1 {
+    font-size: 22vw;
+    line-height: 0.93;
+    letter-spacing: -0.075em;
+  }
+  .hero-heading h1 em {
+    font-size: 1.15em;
+  }
+  .hero-photo {
+    object-position: 52% 50% !important;
+  }
+  .hero-seal {
+    display: none;
+  }
+  .hero-bottom {
+    left: 22px;
+    right: 22px;
+    bottom: 97px;
+    display: block;
+  }
+  .hero-location {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+  .hero-destination h2 {
+    font-size: 30px;
+  }
+  .hero-destination p {
+    font-size: 10px;
+    max-width: 310px;
+    margin-top: 7px;
+  }
+  .hero-destination > a {
+    font-size: 9px;
+    margin-top: 18px;
+  }
+  .hero-selector {
+    margin-top: 34px;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .hero-selector > button {
+    padding: 4px 4px 9px;
+  }
+  .hero-thumb {
+    width: 65px;
+    height: 48px;
+  }
+  .hero-thumb-number {
+    left: 9px;
+    bottom: 14px;
+    font-size: 7px;
+  }
+  .hero-scroll {
+    left: 22px;
+    bottom: 40px;
+    font-size: 7px;
+  }
+  .hero-shade {
+    background:
+      linear-gradient(90deg, #0817256e, #08172520),
+      linear-gradient(0deg, #071321ed 0%, #07132125 70%, #07132180 100%);
+  }
+  .home-search-wrap {
+    padding: 0 16px;
+    margin-top: -24px;
+  }
+  .home-search {
+    padding: 22px 19px;
+    display: block;
+  }
+  .search-field,
+  .search-mood {
+    width: 100%;
+    max-width: none;
+    gap: 15px;
+  }
+  .search-field label,
+  .search-mood label {
+    font-size: 8px;
+  }
+  .search-field input,
+  .search-mood select {
+    font-size: 10px;
+    padding-top: 8px;
+  }
+  .search-field > svg,
+  .search-mood > svg {
+    width: 18px;
+    height: 18px;
+  }
+  .search-mood {
+    padding: 20px 0 0;
+    margin: 18px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .home-search > .button {
+    margin-top: 23px;
+    font-size: 10px;
+    min-height: 48px;
+  }
+  .journeys-section {
+    padding-top: 70px;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 32px;
+  }
+  .section-heading h2 {
+    font-size: 48px;
+    line-height: 1.05;
+  }
+  .section-heading > div:last-child > p,
+  .section-heading > p {
+    font-size: 11px;
+    max-width: 320px;
+    margin-top: 24px;
+  }
+  .section-heading .text-link {
+    margin-top: 18px;
+    font-size: 10px;
+  }
+  .section-heading > .text-link {
+    margin-top: 23px;
+  }
+  .destination-grid {
+    grid-template-columns: 1fr;
+    gap: 37px;
+  }
+  .destination-card-image {
+    height: auto;
+    aspect-ratio: 1.03;
+  }
+  .destination-card-copy {
+    margin-top: 19px;
+  }
+  .destination-card-copy h3 {
+    font-size: 31px;
+  }
+  .destination-card-copy .round-link {
+    width: 38px;
+    height: 38px;
+  }
+  .card-caption {
+    font-size: 11px;
+  }
+  .card-index {
+    top: 17px;
+    left: 16px;
+    font-size: 8px;
+    padding: 7px 10px;
+  }
+  .bookmark-button {
+    width: 36px;
+    height: 36px;
+    top: 13px;
+    right: 13px;
+  }
+  .card-image-tag {
+    left: 16px;
+    bottom: 16px;
+  }
+  .atlas-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 65px 22px 40px;
+    gap: 30px;
+  }
+  .atlas-copy {
+    max-width: none;
+  }
+  .atlas-copy h2 {
+    font-size: 65px;
+  }
+  .atlas-copy > p:not(.eyebrow) {
+    font-size: 11px;
+    margin-top: 22px;
+    max-width: 295px;
+  }
+  .atlas-destinations {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .atlas-destinations button {
+    font-size: 13px;
+    padding: 15px 0;
+    gap: 24px;
+  }
+  .atlas-visual {
+    width: 100%;
+    max-width: 440px;
+    margin-inline: auto;
+  }
+  .globe-shell {
+    margin-top: -10px;
+  }
+  .globe-stage {
+    inset: 0 0 10%;
+  }
+  .globe-controls {
+    bottom: 2%;
+    gap: 18px;
+  }
+  .globe-controls .icon-button {
+    width: 32px;
+    height: 32px;
+  }
+  .globe-controls > span {
+    font-size: 8px;
+  }
+  .atlas-current {
+    margin-top: 23px;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  .atlas-current > a {
+    font-size: 29px;
+  }
+  .globe-north {
+    top: 1%;
+  }
+  .process-section {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 45px;
+    padding-top: 65px;
+    padding-bottom: 85px;
+  }
+  .process-copy h2 {
+    font-size: 50px;
+  }
+  .process-copy > p:not(.eyebrow):not(.small-note) {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 24px;
+  }
+  .process-copy > .button {
+    margin-top: 25px;
+  }
+  .process-copy > .small-note {
+    font-size: 9px;
+  }
+  .process-illustration {
+    padding: 14px 20px 5px 12px;
+    width: 100%;
+    max-width: 390px;
+    align-self: center;
+  }
+  .route-paper {
+    padding: 32px 22px 55px;
+    min-height: 335px;
+  }
+  .paper-route {
+    gap: 16px;
+    padding-bottom: 29px;
+  }
+  .paper-route strong {
+    font-size: 11px;
+  }
+  .paper-route small {
+    font-size: 9px;
+  }
+  .paper-route > span {
+    width: 26px;
+    height: 26px;
+    font-size: 7px;
+  }
+  .paper-stamp {
+    width: 93px;
+    height: 93px;
+    right: 0;
+    bottom: -20px;
+    font-size: 7px;
+  }
+  .feature-story {
+    height: 620px;
+  }
+  .feature-story > img {
+    object-position: 61% 50%;
+  }
+  .feature-story-shade {
+    background:
+      linear-gradient(90deg, #071725bb, #07172530), linear-gradient(0deg, #07172560, #07172520);
+  }
+  .feature-story-copy {
+    padding: 100px 22px;
+  }
+  .feature-story-copy h2 {
+    font-size: 54px;
+    line-height: 1.07;
+  }
+  .feature-story-copy > p:not(.eyebrow) {
+    font-size: 11px;
+    max-width: 260px;
+    line-height: 1.9;
+  }
+  .feature-story-copy > .button {
+    margin-top: 27px;
+  }
+  .feature-compass {
+    top: 32px;
+    right: 25px;
+    width: 42px;
+    height: 42px;
+  }
+  .feature-story-coordinate {
+    bottom: 30px;
+    right: 22px;
+    font-size: 7px;
+  }
+  .site-footer {
+    padding: 50px 22px 28px;
+  }
+  .footer-top {
+    padding-bottom: 35px;
+    gap: 16px;
+  }
+  .footer-top > p {
+    font-size: 42px;
+    line-height: 1.07;
+    max-width: 270px;
+  }
+  .footer-arrow {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+  .footer-arrow svg {
+    width: 26px;
+    height: 26px;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 28px;
+  }
+  .footer-bottom > .wordmark {
+    font-size: 27px;
+    width: 100%;
+  }
+  .footer-bottom > p {
+    font-size: 9px;
+    max-width: 310px;
+    line-height: 1.9;
+  }
+  .footer-bottom > div {
+    width: 100%;
+    font-size: 9px;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .explore-toolbar {
+    padding-block: 12px;
+    gap: 9px;
+  }
+  .explore-search {
+    flex-basis: calc(100% - 100px);
+    gap: 6px;
+  }
+  .explore-search input {
+    font-size: 10px;
+  }
+  .explore-search > svg {
+    width: 14px;
+    height: 14px;
+  }
+  .view-switch {
+    padding-left: 8px;
+    gap: 3px;
+  }
+  .view-switch > button {
+    width: 29px;
+    height: 29px;
+  }
+  .view-switch svg {
+    width: 15px;
+    height: 15px;
+  }
+  .landscape-filters {
+    width: 100%;
+    gap: 2px;
+    margin-top: 4px;
+  }
+  .landscape-filters button {
+    font-size: 9px;
+    padding: 9px 12px;
+  }
+  .destination-grid-large {
+    gap: 37px;
+    grid-template-columns: 1fr;
+  }
+  .destination-grid-large .destination-card-image {
+    aspect-ratio: 1.05;
+  }
+  .destination-grid-large .destination-card-copy h3 {
+    font-size: 31px;
+  }
+  .result-heading {
+    font-size: 8px;
+    margin: 19px 0 24px;
+  }
+  .result-heading .text-button {
+    font-size: 9px;
+  }
+  .atlas-note {
+    display: block;
+    margin-top: 45px;
+    padding-top: 23px;
+  }
+  .atlas-note > p {
+    font-size: 10px;
+    margin-top: 17px;
+  }
+  .explore-globe {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px 24px;
+    gap: 22px;
+  }
+  .explore-globe-stage {
+    width: 100%;
+  }
+  .explore-globe-list {
+    width: 100%;
+    padding: 0 6px;
+  }
+  .explore-globe-list > button:not(.button) {
+    padding: 14px 12px;
+  }
+  .explore-globe-list strong {
+    font-size: 27px;
+  }
+  .explore-globe-list small {
+    font-size: 9px;
+  }
+  .explore-globe-list .button {
+    font-size: 10px;
+  }
+  .destination-detail-hero {
+    height: 550px;
+  }
+  .detail-hero-content {
+    inset: 25px 22px 40px;
+  }
+  .detail-hero-content .breadcrumb {
+    font-size: 8px;
+    margin: 0;
+    gap: 8px;
+    line-height: 1.7;
+  }
+  .detail-chapter {
+    display: none;
+  }
+  .detail-hero-content h1 {
+    font-size: 22vw;
+    line-height: 0.98;
+    overflow-wrap: normal;
+  }
+  .detail-hero-content > .eyebrow {
+    font-size: 8px;
+    margin-bottom: 22px;
+  }
+  .detail-hero-bottom {
+    align-items: start;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  .detail-hero-bottom > p {
+    font-size: 10px;
+    max-width: 240px;
+    line-height: 1.8;
+  }
+  .detail-hero-bottom .round-link {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+  .detail-hero-bottom .round-link svg {
+    width: 16px;
+    height: 16px;
+  }
+  .destination-story {
+    display: block;
+    padding-bottom: 45px;
+  }
+  .destination-story h2 {
+    font-size: 44px;
+    line-height: 1.12;
+  }
+  .destination-intro-copy {
+    margin-top: 32px;
+  }
+  .destination-intro-copy > p:first-child {
+    font-size: 12px;
+    line-height: 1.95;
+  }
+  .destination-intro-copy .tag-row {
+    margin-top: 23px;
+  }
+  .destination-intro-copy .button-row {
+    margin-top: 27px;
+    display: flex;
+    gap: 12px;
+  }
+  .destination-intro-copy .button {
+    width: auto;
+    flex: 1;
+    padding-inline: 14px;
+    min-width: 140px;
+  }
+  .destination-intro-copy > .small-note {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .detail-places {
+    padding-top: 25px;
+  }
+  .place-map-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .detail-place-row {
+    gap: 18px;
+    padding: 24px 0;
+  }
+  .detail-place-row h3 {
+    font-size: 22px;
+  }
+  .detail-place-row p {
+    font-size: 10px;
+    line-height: 1.9;
+  }
+  .place-number {
+    font-size: 22px;
+    min-width: 27px;
+  }
+  .place-duration {
+    display: none;
+  }
+  .detail-map-sticky {
+    position: static;
+  }
+  .official-source {
+    padding: 22px;
+    gap: 16px;
+  }
+  .official-source p {
+    font-size: 10px;
+  }
+  .detail-plan-cta {
+    display: block;
+    padding: 55px 22px;
+  }
+  .detail-plan-cta h2 {
+    font-size: 56px;
+  }
+  .detail-plan-cta > div:last-child {
+    margin-top: 28px;
+    max-width: none;
+  }
+  .detail-plan-cta p:not(.eyebrow) {
+    font-size: 11px;
+    margin-bottom: 24px;
+  }
+  .destination-grid-three {
+    grid-template-columns: 1fr;
+  }
+  .destination-grid-three .destination-card-image {
+    height: auto;
+    aspect-ratio: 1.1;
+  }
+  .destination-grid-three .destination-card-copy h3 {
+    font-size: 31px;
+  }
+  .destination-grid-three .destination-card-copy .round-link {
+    display: flex;
+  }
+  .planner-start-grid {
+    grid-template-columns: 1fr;
+    gap: 39px;
+  }
+  .planner-start .page-intro h1 {
+    font-size: 55px;
+  }
+  .planner-start .intro-bottom .compass-mark {
+    display: none;
+  }
+  .planner-start-button {
+    margin-top: 19px;
+    font-size: 10px;
+  }
+  .planner-start-note {
+    margin-top: 38px;
+  }
+  .trip-cover {
+    min-height: 290px;
+  }
+  .trip-cover-copy {
+    padding: 25px 22px 30px;
+  }
+  .back-link {
+    font-size: 8px;
+    margin-bottom: 32px;
+  }
+  .trip-heading-row {
+    display: block;
+  }
+  .trip-heading-row h1 {
+    font-size: 36px;
+    line-height: 1.14;
+    margin-top: 12px;
+  }
+  .trip-heading-row .tiny-label {
+    font-size: 7px;
+  }
+  .trip-heading-row p {
+    font-size: 9px;
+    gap: 7px;
+    margin-top: 15px;
+  }
+  .trip-heading-row > .button {
+    margin-top: 23px;
+  }
+  .planner-utility {
+    padding: 17px 20px;
+    gap: 13px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .save-indicator {
+    font-size: 8px;
+    gap: 7px;
+  }
+  .planner-utility > .button-row {
+    gap: 7px;
+  }
+  .planner-utility .button {
+    gap: 7px;
+    padding: 9px 11px;
+    min-height: 34px;
+    font-size: 8px;
+  }
+  .planner-utility .button svg {
+    width: 12px;
+    height: 12px;
+  }
+  .planner-layout {
+    padding: 23px 20px 65px;
+    gap: 35px;
+  }
+  .day-tabs {
+    gap: 7px;
+    padding-bottom: 11px;
+  }
+  .day-tab {
+    min-width: 114px;
+    padding: 15px 12px;
+  }
+  .day-tab > span {
+    font-size: 7px;
+  }
+  .day-tab > strong {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .day-tab > small {
+    font-size: 7px;
+    margin-top: 5px;
+  }
+  .add-day-button {
+    min-width: 66px;
+    font-size: 7px;
+  }
+  .day-heading {
+    margin-top: 24px;
+  }
+  .day-heading h2 {
+    font-size: 34px;
+    gap: 14px;
+  }
+  .day-heading .tiny-label {
+    font-size: 7px;
+  }
+  .day-heading h2 > span {
+    font-size: 7px;
+    padding: 6px 9px;
+  }
+  .day-time {
+    font-size: 10px;
+  }
+  .drag-instructions {
+    font-size: 8px;
+    line-height: 1.9;
+    margin-bottom: 19px;
+  }
+  .itinerary-list {
+    gap: 10px;
+  }
+  .itinerary-stop {
+    padding: 17px 12px 14px 7px;
+    gap: 9px;
+  }
+  .itinerary-stop.selected-stop {
+    padding-left: 5px;
+  }
+  .stop-order {
+    width: 19px;
+    gap: 8px;
+  }
+  .stop-order > span {
+    font-size: 8px;
+  }
+  .drag-handle {
+    width: 23px;
+    height: 29px;
+  }
+  .drag-handle svg {
+    width: 14px;
+    height: 14px;
+  }
+  .stop-type {
+    width: 31px;
+    height: 39px;
+    margin-top: 3px;
+    border-radius: 20px 20px 3px 3px;
+  }
+  .stop-type svg {
+    width: 18px;
+    height: 18px;
+  }
+  .stop-content > .tiny-label {
+    font-size: 6px;
+  }
+  .stop-name {
+    font-size: 18px;
+    line-height: 1.35;
+    gap: 5px;
+    padding-top: 5px;
+  }
+  .stop-name svg {
+    width: 10px;
+    height: 10px;
+  }
+  .stop-meta {
+    font-size: 7px;
+    gap: 7px 12px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  .stop-meta svg {
+    width: 9px;
+    height: 9px;
+  }
+  .stop-note {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .stop-bottom {
+    gap: 5px;
+    margin-top: 13px;
+    padding-top: 8px;
+  }
+  .move-label > select {
+    font-size: 8px;
+    padding: 7px 4px;
+    max-width: 73px;
+  }
+  .stop-actions {
+    gap: 0;
+  }
+  .stop-actions .icon-button {
+    width: 27px;
+    height: 30px;
+  }
+  .stop-actions svg {
+    width: 12px;
+    height: 12px;
+  }
+  .place-bank {
+    margin-top: 29px;
+    padding-top: 22px;
+  }
+  .place-bank-heading .tiny-label {
+    font-size: 7px;
+  }
+  .place-bank-heading h3 {
+    font-size: 24px;
+  }
+  .place-bank-heading > span {
+    font-size: 7px;
+    max-width: 100px;
+    line-height: 1.7;
+    text-align: right;
+  }
+  .place-search {
+    font-size: 9px;
+    margin-top: 20px;
+  }
+  .place-bank-list strong {
+    font-size: 12px;
+  }
+  .place-bank-list .tiny-label {
+    font-size: 6px;
+  }
+  .planner-aside {
+    display: block;
+  }
+  .budget-panel {
+    margin-top: 22px;
+    padding: 24px;
+  }
+  .route-map > svg {
+    max-height: none;
+  }
+  .map-heading {
+    padding: 15px;
+  }
+  .map-heading > span:first-child {
+    font-size: 10px;
+  }
+  .map-heading > span:last-child {
+    font-size: 8px;
+  }
+  .map-caption {
+    font-size: 7px;
+    padding: 10px 13px;
+  }
+  .map-place-controls button {
+    font-size: 7px;
+    padding: 7px 8px;
+  }
+  .budget-panel-heading h2 {
+    font-size: 28px;
+  }
+  .budget-panel dl > div {
+    font-size: 10px;
+  }
+  .budget-total {
+    font-size: 45px;
+  }
+  .budget-panel > .small-note {
+    font-size: 9px;
+  }
+  .empty-day {
+    min-height: 230px;
+    padding: 35px 18px;
+  }
+  .empty-day h3 {
+    font-size: 26px;
+  }
+  .empty-day > p {
+    font-size: 9px;
+  }
+  .trips-page .intro-bottom {
+    display: block;
+  }
+  .trips-page .intro-bottom > .button-row {
+    margin-top: 27px;
+  }
+  .trips-page .intro-bottom .button {
+    font-size: 9px;
+    padding-inline: 16px;
+    gap: 10px;
+    min-height: 44px;
+  }
+  .collection-tabs {
+    gap: 25px;
+    margin-bottom: 24px;
+  }
+  .collection-tabs > button {
+    font-size: 11px;
+    gap: 9px;
+    padding: 15px 0;
+  }
+  .trip-list-toolbar {
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .trip-list-toolbar .explore-search {
+    max-width: none;
+    flex-basis: 100%;
+  }
+  .sort-label {
+    font-size: 8px;
+    margin-left: auto;
+  }
+  .sort-label select {
+    font-size: 9px;
+  }
+  .saved-trip-card {
+    display: block;
+  }
+  .saved-trip-image {
+    display: block;
+    width: 100%;
+    height: 210px;
+  }
+  .saved-trip-copy {
+    padding: 24px 22px;
+  }
+  .saved-trip-copy > .tiny-label {
+    font-size: 8px;
+  }
+  .saved-trip-copy h2 {
+    font-size: 27px;
+    line-height: 1.2;
+    margin-top: 12px;
+  }
+  .saved-trip-copy > p {
+    font-size: 9px;
+    margin-top: 14px;
+    gap: 7px;
+  }
+  .saved-trip-bottom {
+    flex-direction: row;
+    align-items: end;
+    gap: 16px;
+    margin-top: 25px;
+  }
+  .saved-trip-bottom > strong {
+    font-size: 24px;
+  }
+  .saved-trip-bottom small {
+    font-size: 7px;
+  }
+  .saved-trip-bottom .text-link {
+    font-size: 9px;
+    gap: 10px;
+  }
+  .saved-trip-bottom .text-link svg {
+    width: 15px;
+    height: 15px;
+  }
+  .saved-trip-actions {
+    top: 14px;
+    right: 14px;
+    flex-direction: row;
+  }
+  .saved-trip-actions .icon-button {
+    background: var(--paper);
+    width: 33px;
+    height: 33px;
+  }
+  .saved-trip-actions .icon-button svg {
+    width: 14px;
+    height: 14px;
+  }
+  .collection-footnote {
+    font-size: 9px;
+    line-height: 1.9;
+    margin-top: 25px;
+  }
+  .empty-state {
+    padding: 45px 18px;
+    min-height: 340px;
+    gap: 15px;
+  }
+  .empty-state h1,
+  .empty-state h2 {
+    font-size: 34px;
+    line-height: 1.12;
+  }
+  .empty-state p {
+    font-size: 11px;
+  }
+  .shared-trip-preview {
+    display: flex;
+    flex-direction: column;
+  }
+  .shared-trip-preview > img {
+    height: 240px;
+    min-height: 0;
+  }
+  .shared-trip-preview > div {
+    padding: 28px 23px;
+  }
+  .shared-trip-preview h2 {
+    font-size: 35px;
+  }
+  .shared-trip-preview .tiny-label {
+    font-size: 8px;
+  }
+  .shared-trip-preview p:not(.small-note) {
+    font-size: 10px;
+  }
+  .shared-trip-preview .button {
+    margin-top: 25px;
+  }
+  .shared-days {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin-top: 35px;
+  }
+  .shared-days > section {
+    padding-top: 25px;
+  }
+  .shared-days h2 {
+    font-size: 27px;
+  }
+  .shared-days li {
+    font-size: 12px;
+  }
+  .shared-days li p {
+    font-size: 11px;
+  }
+  .about-page .page-intro h1 {
+    font-size: 54px;
+  }
+  .about-page .intro-bottom > p {
+    font-size: 10px;
+    max-width: 260px;
+  }
+  .about-page .intro-bottom .compass-mark {
+    display: none;
+  }
+  .about-body {
+    margin-top: 10px;
+  }
+  .about-body > section {
+    padding: 35px 0;
+  }
+  .about-body h2 {
+    font-size: 43px;
+    line-height: 1.08;
+    margin: 23px 0;
+  }
+  .about-body p {
+    font-size: 11px;
+    line-height: 1.95;
+  }
+  .about-body .tiny-label {
+    font-size: 8px;
+  }
+  .credit-list {
+    margin: 25px 0;
+  }
+  .credit-list > a {
+    font-size: 9px;
+  }
+  .credit-list strong {
+    font-size: 12px;
+  }
+  .credit-list svg {
+    width: 16px;
+    height: 16px;
+  }
+  .dialog {
+    padding: 25px 22px;
+    max-height: 88svh;
+  }
+  .dialog-heading {
+    margin-bottom: 24px;
+    gap: 12px;
+  }
+  .dialog-heading h2 {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+  .dialog > p,
+  .dialog-intro {
+    font-size: 11px;
+  }
+  .dialog-actions {
+    gap: 10px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  .dialog-actions > .button {
+    flex: 1;
+    min-width: 110px;
+    font-size: 9px;
+    min-height: 44px;
+    padding: 12px 15px;
+  }
+  .field-label {
+    font-size: 10px;
+  }
+  .field-label > input,
+  .field-label > select,
+  .field-label > textarea,
+  .money-input > input {
+    font-size: 16px;
+    min-height: 46px;
+  }
+  .field-label small {
+    font-size: 9px;
+    line-height: 1.7;
+  }
+  .form-two-col {
+    gap: 12px;
+  }
+  .form-two-col > .field-label {
+    min-width: 0;
+  }
+  .money-input > span {
+    font-size: 13px;
+  }
+  .export-options > button {
+    gap: 16px;
+    padding: 21px 0;
+  }
+  .export-options strong {
+    font-size: 12px;
+  }
+  .export-options small {
+    font-size: 9px;
+    line-height: 1.6;
+  }
+  .export-options > button > svg:first-child {
+    width: 22px;
+    height: 22px;
+  }
+  .feedback {
+    bottom: 16px;
+    padding: 12px 12px 12px 16px;
+    gap: 12px;
+    max-width: calc(100% - 24px);
+  }
+  .feedback p {
+    font-size: 10px;
+    line-height: 1.8;
+  }
+  .feedback > .icon-button {
+    width: 25px;
+    height: 25px;
+  }
+  .recovery-banner {
+    padding: 23px 22px;
+    display: block;
+  }
+  .recovery-banner strong {
+    font-size: 13px;
+  }
+  .recovery-banner p {
+    font-size: 10px;
+    margin-top: 6px;
+    line-height: 1.9;
+  }
+  .recovery-banner > .button-row {
+    margin-top: 15px;
+    gap: 18px;
+  }
+  .main-home > .recovery-banner {
+    top: 78px;
+    margin-bottom: 78px;
+  }
+  .field-error,
+  .inline-error {
+    font-size: 10px;
+  }
+  .page-loading {
+    font-size: 27px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-thumb {
+    width: 58px;
+    height: 46px;
+  }
+  .hero-selector {
+    gap: 7px;
+  }
+  .hero-heading h1 {
+    font-size: 22vw;
+  }
+  .hero-destination h2 {
+    font-size: 29px;
+  }
+  .page-intro h1 {
+    font-size: 52px;
+  }
+  .stop-type {
+    display: none;
+  }
+  .stop-name {
+    font-size: 18px;
+  }
+  .section-heading h2 {
+    font-size: 44px;
+  }
+  .footer-top > p {
+    font-size: 37px;
+  }
+  .footer-arrow {
+    width: 48px;
+    height: 48px;
+  }
+  .planner-utility {
+    gap: 15px;
+  }
+  .planner-utility > .button-row {
+    margin-left: auto;
+  }
+  .day-tab {
+    min-width: 108px;
+  }
+  .trip-heading-row h1 {
+    font-size: 33px;
+  }
+  .intro-bottom > .editorial-index {
+    display: none;
+  }
+}
